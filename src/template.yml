@@ -1,0 +1,252 @@
+name: 'Acme'
+type: 'light'
+semanticHighlighting: true
+
+tokenColors:
+  - name: 'Comments'
+    scope:
+      - 'comment'
+      - 'punctuation.definition.comment'
+    settings:
+      foreground: '{fade}'
+
+  - name: 'Strings, constants, numbers, characters'
+    scope:
+      - 'constant'
+      - 'constant.character.escape'
+      - 'string'
+      - 'entity.other.attribute-name.id'
+      - 'support.constant'
+    settings:
+      foreground: '{fg}'
+
+  - name: 'Errors'
+    scope:
+      - 'entity.name.exception'
+      - 'invalid.illegal'
+    settings:
+      foreground: '{red_1}'
+
+  - name: 'Sections and headings'
+    scope:
+      - 'entity.name.section.markdown'
+    settings:
+      foreground: '{fg}'
+      fontStyle: 'bold'
+
+colors:
+  # https://code.visualstudio.com/api/references/theme-color
+
+  # base colors
+  'background': '{bg_1}'
+  'descriptionForeground': '{fg}'
+  'disabledForeground': '{fg}88'
+  'errorForeground': '{red_1}'
+  'focusBorder': '{border}'
+  'foreground': '{fg}'
+  'icon.foreground': '{fg}'
+  'selection.background': '{selection_bg}'
+  'widget.border': '{border}'
+
+  # everything else
+  'activityBar.activeBorder': '{ui_bg}'
+  'activityBar.activeFocusBorder': '{border}'
+  'activityBar.background': '{ui_bg}'
+  'activityBar.border': '{ui_bg}'
+  'activityBar.foreground': '{fg}'
+  'activityBar.inactiveForeground': '{faint}'
+
+  'activityBarBadge.background': '{button_bg}'
+  'activityBarBadge.foreground': '{button_fg}'
+
+  'badge.background': '{button_bg}'
+  'badge.foreground': '{button_fg}'
+
+  'breadcrumb.background': '{ui_bg}'
+  'breadcrumb.foreground': '{fg}'
+  'breadcrumb.focusForeground': '{fg}'
+
+  'button.background': '{button_bg}d8'
+  'button.foreground': '{button_fg}'
+  'button.border': '{fg}'
+  'button.hoverBackground': '{button_bg}'
+  'button.secondaryBackground': '{invisible}'
+  'button.secondaryForeground': '{fg}'
+  'button.secondaryHoverBackground': '{ui_hl}'
+
+  'checkbox.background': '{bg_2}'
+  'checkbox.border': '{border}'
+  'checkbox.foreground': '{fg}'
+
+  'dropdown.background': '{bg_2}'
+  'dropdown.border': '{border}'
+  'dropdown.foreground': '{fg}'
+  'dropdown.listBackground': '{bg_2}'
+
+  'editor.background': '{bg_1}'
+  'editor.foreground': '{fg}'
+
+  'editor.findMatchBackground': '{purple_2}ee'
+  'editor.findMatchHighlightBackground': '{selection_bg}'
+
+  'editor.foldBackground': '{bg_2}bb'
+  'editor.lineHighlightBorder': '{bg_2}'
+  'editor.rangeHighlightBackground': '{bg_2}88'
+  'editor.selectionBackground': '{selection_bg}ee'
+  'editor.selectionHighlightBackground': '{bg_2}'
+  'editor.wordHighlightBackground': '{bg_2}'
+
+  'editorBracketMatch.background': '{bg_2}'
+  'editorCursor.foreground': '{fg}'
+  'editorGroup.border': '{border}'
+  'editorGroupHeader.border': '{border}'
+  'editorGroupHeader.tabsBackground': '{ui_bg}'
+  'editorGroupHeader.tabsBorder': '{border}'
+  'editorHoverWidget.border': '{border}'
+  'editorInlayHint.foreground': '{faint}'
+  'editorInlayHint.background': '{bg_1}'
+  'editorIndentGuide.activeBackground': '{dim}'
+  'editorIndentGuide.background': '{faint}'
+  'editorLineNumber.foreground': '{faint}'
+  'editorLineNumber.activeForeground': '{fg}'
+  'editorLink.activeForeground': '{blue_1}'
+  'editorStickyScrollHover.background': '{selection_bg}88'
+
+  'editorSuggestWidget.background': '{green_4}'
+  'editorSuggestWidget.border': '{green_1}'
+  'editorSuggestWidget.focusHighlightForeground': '{white_2}'
+  'editorSuggestWidget.foreground': '{fg}'
+  'editorSuggestWidget.highlightForeground': '{fg}'
+  'editorSuggestWidget.selectedBackground': '{green_3}'
+  'editorSuggestWidget.selectedForeground': '{white_2}'
+  'editorSuggestWidget.selectedIconForeground': '{white_2}'
+
+  'editorWidget.background': '{ui_bg}'
+  'editorWidget.foreground': '{fg}'
+
+  'gitDecoration.conflictingResourceForeground': '{red_1}'
+  'gitDecoration.deletedResourceForeground': '{fg}'
+  'gitDecoration.ignoredResourceForeground': '{dim}'
+  'gitDecoration.modifiedResourceForeground': '{fg}'
+  'gitDecoration.stageDeletedResourceForeground': '{red_1}'
+  'gitDecoration.stageModifiedResourceForeground': '{fg}'
+  'gitDecoration.submoduleResourceForeground': '{fg}'
+  'gitDecoration.untrackedResourceForeground': '{fg}'
+
+  'input.background': '{white_2}'
+  'input.border': '{border}'
+  'input.foreground': '{fg}'
+  'input.placeholderForeground': '{fg}88'
+
+  'list.activeSelectionBackground': '{ui_hl}aa'
+  'list.activeSelectionForeground': '{fg}'
+  'list.activeSelectionIconForeground': '{fg}'
+  'list.errorForeground': '{red_1}'
+  'list.highlightForeground': '{fg}'
+  'list.hoverBackground': '{invisible}'
+  'list.inactiveSelectionBackground': '{ui_hl}88'
+  'list.warningForeground': '{orange_1}'
+
+  'notificationCenter.border': '{border}'
+  'notificationCenterHeader.background': '{ui_bg}'
+  'notificationCenterHeader.foreground': '{fg}'
+  'notificationLink.foreground': '{blue_1}'
+  'notifications.background': '{ui_bg}'
+  'notifications.border': '{border}'
+  'notifications.foreground': '{fg}'
+  'notificationsInfoIcon.foreground': '{fg}'
+
+  'panel.background': '{ui_bg}'
+  'panel.border': '{border}'
+  'panelInput.border': '{border}'
+  'panelSection.border': '{border}'
+  'panelSectionHeader.background': '{ui_bg}'
+  'panelTitle.activeBorder': '{fg}'
+  'panelTitle.activeForeground': '{fg}'
+  'panelTitle.inactiveForeground': '{dim}'
+
+  'peekView.border': '{border}'
+
+  'quickInputList.focusBackground': '{ui_hl}'
+  'quickInputList.focusForeground': '{fg}'
+
+  'scrollbarSlider.activeBackground': '{yellow_1}aa'
+  'scrollbarSlider.background': '{faint}'
+  'scrollbarSlider.hoverBackground': '{yellow_1}88'
+
+  'settings.checkboxBackground': '{bg_2}'
+  'settings.checkboxForeground': '{fg}'
+  'settings.dropdownBackground': '{bg_1}'
+  'settings.dropdownForeground': '{fg}'
+  'settings.headerForeground': '{fg}'
+  'settings.textInputBackground': '{white_2}'
+
+  'sideBar.background': '{ui_bg}'
+  'sideBar.border': '{border}'
+  'sideBar.foreground': '{fg}'
+  'sideBarSectionHeader.background': '{ui_bg}'
+  'sideBarSectionHeader.border': '{border}'
+
+  'statusBar.background': '{ui_bg}'
+  'statusBar.border': '{border}'
+  'statusBar.debuggingBackground': '{yellow_1}'
+  'statusBar.debuggingForeground': '{white_2}'
+  'statusBar.foreground': '{fg}'
+  'statusBar.noFolderBackground': '{cyan_3}'
+  'statusBar.noFolderForeground': '{white_2}'
+
+  'statusBarItem.remoteBackground': '{button_bg}'
+  'statusBarItem.remoteForeground': '{button_fg}'
+
+  'tab.activeBackground': '{ui_hl}88'
+  'tab.activeBorder': '{invisible}'
+  'tab.activeBorderTop': '{ui_hl}88'
+  'tab.activeForeground': '{fg}'
+  'tab.border': '{border}'
+  'tab.hoverBackground': '{ui_hl}'
+  'tab.hoverBorder': '{border}'
+  'tab.inactiveBackground': '{ui_bg}'
+  'tab.inactiveForeground': '{dim}'
+  'tab.inactiveModifiedBorder': '{border}'
+  'tab.lastPinnedBorder': '{border}'
+  'tab.unfocusedActiveBackground': '{ui_bg}'
+  'tab.unfocusedActiveBorderTop': '{ui_bg}'
+
+  'terminal.ansiBlack': '{black_1}'
+  'terminal.ansiBlue': '{blue_1}'
+  'terminal.ansiBrightBlack': '{black_2}'
+  'terminal.ansiBrightBlue': '{blue_2}'
+  'terminal.ansiBrightCyan': '{cyan_2}'
+  'terminal.ansiBrightGreen': '{green_2}'
+  'terminal.ansiBrightMagenta': '{magenta_2}'
+  'terminal.ansiBrightRed': '{red_2}'
+  'terminal.ansiBrightWhite': '{white_2}'
+  'terminal.ansiBrightYellow': '{yellow_2}'
+  'terminal.ansiCyan': '{cyan_1}'
+  'terminal.ansiGreen': '{green_1}'
+  'terminal.ansiMagenta': '{magenta_1}'
+  'terminal.ansiRed': '{red_1}'
+  'terminal.ansiWhite': '{bg_3}'
+  'terminal.ansiYellow': '{yellow_1}'
+  'terminal.background': '{bg_1}'
+  'terminal.foreground': '{fg}'
+  'terminal.selectionBackground': '{selection_bg}'
+  'terminal.tab.activeBorder': '{fg}'
+  'terminalCommandDecoration.successBackground': '{purple_2}'
+  'terminalStickyScrollHover.background': '{selection_bg}88'
+
+  'textBlockQuote.background': '{bg_2}'
+  'textLink.activeForeground': '{fg}'
+  'textLink.foreground': '{blue_1}'
+  'textPreformat.foreground': '{gray_1}'
+
+  'titleBar.activeBackground': '{ui_bg}'
+  'titleBar.activeForeground': '{fg}'
+  'titleBar.border': '{border}'
+  'titleBar.inactiveBackground': '{ui_bg}'
+  'titleBar.inactiveForeground': '{dim}'
+
+  'tree.indentGuidesStroke': '{border}'
+
+  'window.activeBorder': '{ui_bg}'
+  'window.inactiveBorder': '{bg_1}'

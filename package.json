@@ -1,0 +1,26 @@
+{
+  "name": "acme-theme-vscode",
+  "displayName": "Acme Theme",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "Brendan Desmond",
+  "type": "module",
+  "repository": {
+	  "type": "git"
+  },
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Acme",
+        "uiTheme": "vs",
+        "path": "./themes/acme-color-theme.json"
+      }
+    ]
+  }
+}
