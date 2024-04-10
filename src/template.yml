@@ -45,7 +45,7 @@ colors:
   'focusBorder': '{border}'
   'foreground': '{fg}'
   'icon.foreground': '{fg}'
-  'selection.background': '{selection_bg}'
+  'selection.background': '{gray_3}'
   'widget.border': '{border}'
 
   # everything else
