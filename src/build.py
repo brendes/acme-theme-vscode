@@ -15,7 +15,7 @@ colors = {
     "gray_2": "#cccccc",
     "gray_3": "#dddddd",
     "blue_1": "#5577bb",
-    "blue_2": "#99bbcc",
+    "blue_2": "#99bbdd",
     "cyan_1": "#559999",
     "cyan_2": "#99cccc",
     "cyan_3": "#aaeeee",
