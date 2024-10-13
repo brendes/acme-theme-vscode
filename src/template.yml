@@ -203,7 +203,7 @@ colors:
   'statusBar.debuggingBackground': '{yellow_1}'
   'statusBar.debuggingForeground': '{white_2}'
   'statusBar.foreground': '{fg}'
-  'statusBar.noFolderBackground': '{cyan_3}'
+  'statusBar.noFolderBackground': '{white_2}'
   'statusBar.noFolderForeground': '{fg}'
 
   'statusBarItem.remoteBackground': '{button_bg}'
