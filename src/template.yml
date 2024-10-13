@@ -10,11 +10,16 @@ tokenColors:
     settings:
       foreground: '{fade}'
 
-  - name: 'Strings, constants, numbers, characters'
+  - name: 'Strings'
+    scope:
+      - 'string'
+    settings:
+      foreground: '{dim}'
+
+  - name: 'Constants, numbers, characters'
     scope:
       - 'constant'
       - 'constant.character.escape'
-      - 'string'
       - 'entity.other.attribute-name.id'
       - 'support.constant'
     settings:
@@ -52,7 +57,7 @@ colors:
   'activityBar.activeBorder': '{ui_bg}'
   'activityBar.activeFocusBorder': '{border}'
   'activityBar.background': '{ui_bg}'
-  'activityBar.border': '{ui_bg}'
+  'activityBar.border': '{border}'
   'activityBar.foreground': '{fg}'
   'activityBar.inactiveForeground': '{faint}'
 
@@ -74,14 +79,14 @@ colors:
   'button.secondaryForeground': '{fg}'
   'button.secondaryHoverBackground': '{ui_hl}'
 
-  'checkbox.background': '{bg_2}'
-  'checkbox.border': '{border}'
-  'checkbox.foreground': '{fg}'
+  # 'checkbox.background': '{ui_bg}'
+  # 'checkbox.border': '{border}'
+  # 'checkbox.foreground': '{fg}'
 
-  'dropdown.background': '{bg_2}'
-  'dropdown.border': '{border}'
-  'dropdown.foreground': '{fg}'
-  'dropdown.listBackground': '{bg_2}'
+  # 'dropdown.background': '{ui_bg}'
+  # 'dropdown.border': '{border}'
+  # 'dropdown.foreground': '{fg}'
+  # 'dropdown.listBackground': '{ui_bg}'
 
   'editor.background': '{bg_1}'
   'editor.foreground': '{fg}'
@@ -105,21 +110,25 @@ colors:
   'editorHoverWidget.border': '{border}'
   'editorInlayHint.foreground': '{faint}'
   'editorInlayHint.background': '{bg_1}'
-  'editorIndentGuide.activeBackground': '{dim}'
-  'editorIndentGuide.background': '{faint}'
+  'editorIndentGuide.activeBackground': '{fade}'
+  'editorIndentGuide.background': '{fg}22'
+  # 'editorIndentGuide.background': '{invisible}'
   'editorLineNumber.foreground': '{faint}'
   'editorLineNumber.activeForeground': '{fg}'
   'editorLink.activeForeground': '{blue_1}'
   'editorStickyScrollHover.background': '{selection_bg}88'
 
-  'editorSuggestWidget.background': '{green_4}'
-  'editorSuggestWidget.border': '{green_1}'
-  'editorSuggestWidget.focusHighlightForeground': '{white_2}'
+  # 'editorSuggestWidget.background': '{green_4}'
+  # 'editorSuggestWidget.border': '{green_1}'
+  'editorSuggestWidget.background': '{ui_bg}'
+  'editorSuggestWidget.border': '{border}'
+  'editorSuggestWidget.focusHighlightForeground': '{fg}'
   'editorSuggestWidget.foreground': '{fg}'
   'editorSuggestWidget.highlightForeground': '{fg}'
-  'editorSuggestWidget.selectedBackground': '{green_3}'
-  'editorSuggestWidget.selectedForeground': '{white_2}'
-  'editorSuggestWidget.selectedIconForeground': '{white_2}'
+  # 'editorSuggestWidget.selectedBackground': '{green_3}'
+  'editorSuggestWidget.selectedBackground': '{ui_hl}'
+  'editorSuggestWidget.selectedForeground': '{fg}'
+  'editorSuggestWidget.selectedIconForeground': '{fg}'
 
   'editorWidget.background': '{ui_bg}'
   'editorWidget.foreground': '{fg}'
@@ -137,6 +146,8 @@ colors:
   'input.border': '{border}'
   'input.foreground': '{fg}'
   'input.placeholderForeground': '{fg}88'
+
+  'keybindingLabel.background': '{white_2}'
 
   'list.activeSelectionBackground': '{ui_hl}aa'
   'list.activeSelectionForeground': '{fg}'
@@ -174,10 +185,10 @@ colors:
   'scrollbarSlider.background': '{faint}'
   'scrollbarSlider.hoverBackground': '{yellow_1}88'
 
-  'settings.checkboxBackground': '{bg_2}'
-  'settings.checkboxForeground': '{fg}'
-  'settings.dropdownBackground': '{bg_1}'
-  'settings.dropdownForeground': '{fg}'
+  # 'settings.checkboxBackground': '{ui_bg}'
+  # 'settings.checkboxForeground': '{fg}'
+  # 'settings.dropdownBackground': '{ui_bg}'
+  # 'settings.dropdownForeground': '{fg}'
   'settings.headerForeground': '{fg}'
   'settings.textInputBackground': '{white_2}'
 
@@ -203,8 +214,8 @@ colors:
   'tab.activeBorderTop': '{ui_bg}'
   'tab.activeForeground': '{fg}'
   'tab.border': '{border}'
-  'tab.hoverBackground': '{ui_hl}'
-  'tab.hoverBorder': '{ui_hl}'
+  'tab.hoverBackground': '{ui_bg}'
+  # 'tab.hoverBorder': '{invisible}'
   'tab.inactiveBackground': '{ui_bg}'
   'tab.inactiveForeground': '{dim}'
   'tab.inactiveModifiedBorder': '{border}'
@@ -246,7 +257,8 @@ colors:
   'titleBar.inactiveBackground': '{ui_bg}'
   'titleBar.inactiveForeground': '{dim}'
 
-  'tree.indentGuidesStroke': '{border}'
+  'tree.indentGuidesStroke': '{invisible}'
+  'tree.inactiveIndentGuidesStroke': '{invisible}'
 
   'window.activeBorder': '{ui_bg}'
   'window.inactiveBorder': '{bg_1}'

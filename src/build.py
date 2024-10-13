@@ -19,7 +19,7 @@ colors = {
     "cyan_1": "#559999",
     "cyan_2": "#99cccc",
     "cyan_3": "#aaeeee",
-    "cyan_4": "#f0ffff",
+    "cyan_4": "#eeffff",
     "green_1": "#559955",
     "green_2": "#99be99",
     "green_3": "#88cc88",
