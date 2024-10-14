@@ -88,7 +88,7 @@ colors:
   'editor.findMatchBackground': '{purple_2}ee'
   'editor.findMatchHighlightBackground': '{selection_bg}'
 
-  'editor.foldBackground': '{bg_2}bb'
+  'editor.foldBackground': '{bg_1}'
   'editor.lineHighlightBorder': '{bg_2}'
   'editor.rangeHighlightBackground': '{bg_2}88'
   'editor.selectionBackground': '{selection_bg}ee'
