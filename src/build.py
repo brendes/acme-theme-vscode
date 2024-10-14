@@ -31,7 +31,7 @@ colors = {
     "purple_2": "#bbbbff",
     "red_1": "#bb5d5d",
     "red_2": "#dd8888",
-    "white_2": "#ffffff",
+    "white": "#ffffff",
     "brown_1": "#99774c",
     "yellow_1": "#998855",
     "yellow_2": "#eeeeaa",
@@ -49,7 +49,7 @@ acme_theme = {
     "ui_hl": colors["cyan_3"],
     "selection_bg": colors["yellow_2"],
     "button_bg": colors["purple_1"],
-    "button_fg": colors["white_2"],
+    "button_fg": colors["white"],
 }
 
 
