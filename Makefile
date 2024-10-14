@@ -1,5 +1,5 @@
 PYTHON_CMD = python3
-PIP_CMD = pip3
+PIP_CMD = pip
 BUILD_SCRIPT = src/build.py
 VENV_DIR = .venv
 
@@ -10,6 +10,7 @@ setup:
 	$(VENV_DIR)/bin/$(PIP_CMD) install -r requirements.txt
 
 build: setup
+	mkdir -p themes
 	$(VENV_DIR)/bin/$(PYTHON_CMD) $(BUILD_SCRIPT)
 
 package: build
