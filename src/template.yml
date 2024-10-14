@@ -1,4 +1,4 @@
-name: 'Acme'
+name: '{theme_name}'
 type: 'light'
 semanticHighlighting: true
 
@@ -77,7 +77,7 @@ colors:
   'button.hoverBackground': '{button_bg}'
   'button.secondaryBackground': '{invisible}'
   'button.secondaryForeground': '{fg}'
-  'button.secondaryHoverBackground': '{ui_hl}'
+  'button.secondaryHoverBackground': '{gray_3}'
 
   'checkbox.border': '{border}'
   'dropdown.border': '{border}'
@@ -85,11 +85,11 @@ colors:
   'editor.background': '{bg_1}'
   'editor.foreground': '{fg}'
 
-  'editor.findMatchBackground': '{purple_2}ee'
+  'editor.findMatchBackground': '{match_bg}ee'
   'editor.findMatchHighlightBackground': '{selection_bg}'
 
   'editor.foldBackground': '{bg_1}'
-  'editor.lineHighlightBorder': '{bg_2}'
+  'editor.lineHighlightBorder': '{bg_3}'
   'editor.rangeHighlightBackground': '{bg_2}88'
   'editor.selectionBackground': '{selection_bg}ee'
   'editor.selectionHighlightBackground': '{bg_2}'
@@ -102,7 +102,8 @@ colors:
   'editorGroupHeader.border': '{border}'
   'editorGroupHeader.tabsBackground': '{ui_bg}'
   'editorGroupHeader.tabsBorder': '{border}'
-  'editorHoverWidget.border': '{border}'
+  'editorHoverWidget.border': '{black_1}'
+  'editorHoverWidget.background': '{hover_bg}'
   'editorInlayHint.foreground': '{faint}'
   'editorInlayHint.background': '{bg_1}'
   'editorIndentGuide.activeBackground': '{fade}'
@@ -112,12 +113,12 @@ colors:
   'editorLink.activeForeground': '{blue_1}'
   'editorStickyScrollHover.background': '{selection_bg}88'
 
-  'editorSuggestWidget.background': '{ui_bg}'
+  'editorSuggestWidget.background': '{hover_bg}'
   'editorSuggestWidget.border': '{border}'
   'editorSuggestWidget.focusHighlightForeground': '{fg}'
   'editorSuggestWidget.foreground': '{fg}'
   'editorSuggestWidget.highlightForeground': '{fg}'
-  'editorSuggestWidget.selectedBackground': '{ui_hl}'
+  'editorSuggestWidget.selectedBackground': '{hover_hl}'
   'editorSuggestWidget.selectedForeground': '{fg}'
   'editorSuggestWidget.selectedIconForeground': '{fg}'
 
@@ -150,10 +151,10 @@ colors:
   'list.warningForeground': '{orange_1}'
 
   'notificationCenter.border': '{border}'
-  'notificationCenterHeader.background': '{ui_bg}'
+  'notificationCenterHeader.background': '{hover_bg}'
   'notificationCenterHeader.foreground': '{fg}'
   'notificationLink.foreground': '{blue_1}'
-  'notifications.background': '{ui_bg}'
+  'notifications.background': '{hover_bg}'
   'notifications.border': '{border}'
   'notifications.foreground': '{fg}'
   'notificationsInfoIcon.foreground': '{fg}'
@@ -171,6 +172,8 @@ colors:
 
   'quickInputList.focusBackground': '{ui_hl}'
   'quickInputList.focusForeground': '{fg}'
+
+  'progressBar.background': '{purple_1}'
 
   'scrollbarSlider.activeBackground': '{yellow_1}aa'
   'scrollbarSlider.background': '{faint}'
@@ -204,7 +207,6 @@ colors:
   'tab.activeForeground': '{fg}'
   'tab.border': '{border}'
   'tab.hoverBackground': '{ui_bg}'
-  # 'tab.hoverBorder': '{invisible}'
   'tab.inactiveBackground': '{ui_bg}'
   'tab.inactiveForeground': '{dim}'
   'tab.inactiveModifiedBorder': '{border}'
@@ -214,7 +216,7 @@ colors:
 
   'terminal.ansiBlack': '{black_1}'
   'terminal.ansiBlue': '{blue_1}'
-  'terminal.ansiBrightBlack': '{black_2}'
+  'terminal.ansiBrightBlack': '{dim}'
   'terminal.ansiBrightBlue': '{blue_2}'
   'terminal.ansiBrightCyan': '{cyan_2}'
   'terminal.ansiBrightGreen': '{green_2}'

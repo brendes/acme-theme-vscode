@@ -20,6 +20,11 @@
         "label": "Acme",
         "uiTheme": "vs",
         "path": "./themes/acme-color-theme.json"
+      },
+      {
+        "label": "Acme White",
+        "uiTheme": "vs",
+        "path": "./themes/acme-white-color-theme.json"
       }
     ]
   }
