@@ -10,7 +10,6 @@ A blue and white version of the theme is also included.
 
 ## Screenshots
 
-
 TODO
 
 ## Build
