@@ -88,7 +88,7 @@ colors:
   'editor.background': '{bg_1}'
   'editor.foreground': '{fg}'
 
-  'editor.findMatchBackground': '{match_bg}ee'
+  'editor.findMatchBackground': '{match_bg}'
   'editor.findMatchHighlightBackground': '{selection_bg}'
 
   'editor.foldBackground': '{bg_1}'
@@ -201,7 +201,7 @@ colors:
 
   'statusBar.background': '{ui_bg}'
   'statusBar.border': '{border}'
-  'statusBar.debuggingBackground': '{yellow_1}'
+  'statusBar.debuggingBackground': '{orange_1}'
   'statusBar.debuggingForeground': '{blank_bg}'
   'statusBar.foreground': '{fg}'
   'statusBar.noFolderBackground': '{blank_bg}'
