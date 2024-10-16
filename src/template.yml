@@ -1,5 +1,5 @@
 name: '{theme_name}'
-type: 'light'
+type: '{theme_type}'
 semanticHighlighting: true
 
 tokenColors:
@@ -14,7 +14,7 @@ tokenColors:
     scope:
       - 'string'
     settings:
-      foreground: '{dim}'
+      foreground: '{string}'
 
   - name: 'Constants, numbers, characters'
     scope:
@@ -50,7 +50,7 @@ colors:
   'focusBorder': '{border}'
   'foreground': '{fg}'
   'icon.foreground': '{fg}'
-  'selection.background': '{gray_3}'
+  'selection.background': '{selection_bg}'
   'widget.border': '{border}'
 
   # everything else
@@ -70,17 +70,20 @@ colors:
   'breadcrumb.background': '{ui_bg}'
   'breadcrumb.foreground': '{fg}'
   'breadcrumb.focusForeground': '{fg}'
+  'breadcrumbPicker.background': '{hover_bg}'
 
   'button.background': '{button_bg}d8'
   'button.foreground': '{button_fg}'
-  'button.border': '{fg}'
+  'button.border': '{black_1}'
   'button.hoverBackground': '{button_bg}'
   'button.secondaryBackground': '{invisible}'
   'button.secondaryForeground': '{fg}'
-  'button.secondaryHoverBackground': '{gray_3}'
+  'button.secondaryHoverBackground': '{selection_bg}'
 
   'checkbox.border': '{border}'
   'dropdown.border': '{border}'
+
+  'debugIcon.breakpointForeground': '{red_1}'
 
   'editor.background': '{bg_1}'
   'editor.foreground': '{fg}'
@@ -102,7 +105,12 @@ colors:
   'editorGroupHeader.border': '{border}'
   'editorGroupHeader.tabsBackground': '{ui_bg}'
   'editorGroupHeader.tabsBorder': '{border}'
-  'editorHoverWidget.border': '{black_1}'
+
+  'editorGutter.modifiedBackground': '{blue_1}'
+  'editorGutter.addedBackground': '{green_1}'
+  'editorGutter.deletedBackground': '{red_1}'
+
+  'editorHoverWidget.border': '{border}'
   'editorHoverWidget.background': '{hover_bg}'
   'editorInlayHint.foreground': '{faint}'
   'editorInlayHint.background': '{bg_1}'
@@ -124,6 +132,7 @@ colors:
 
   'editorWidget.background': '{ui_bg}'
   'editorWidget.foreground': '{fg}'
+  'editorWidget.border': '{border}'
 
   'gitDecoration.conflictingResourceForeground': '{red_1}'
   'gitDecoration.deletedResourceForeground': '{fg}'
@@ -134,18 +143,18 @@ colors:
   'gitDecoration.submoduleResourceForeground': '{fg}'
   'gitDecoration.untrackedResourceForeground': '{fg}'
 
-  'input.background': '{white}'
+  'input.background': '{blank_bg}'
   'input.border': '{border}'
   'input.foreground': '{fg}'
   'input.placeholderForeground': '{fg}88'
 
-  'keybindingLabel.background': '{white}'
+  'keybindingLabel.background': '{blank_bg}'
 
   'list.activeSelectionBackground': '{ui_hl}aa'
   'list.activeSelectionForeground': '{fg}'
   'list.activeSelectionIconForeground': '{fg}'
   'list.errorForeground': '{red_1}'
-  'list.highlightForeground': '{fg}'
+  'list.highlightForeground': '{bold}'
   'list.hoverBackground': '{invisible}'
   'list.inactiveSelectionBackground': '{ui_hl}88'
   'list.warningForeground': '{orange_1}'
@@ -173,7 +182,7 @@ colors:
   'quickInputList.focusBackground': '{ui_hl}'
   'quickInputList.focusForeground': '{fg}'
 
-  'progressBar.background': '{purple_1}'
+  'progressBar.background': '{button_bg}'
 
   'scrollbarSlider.activeBackground': '{yellow_1}aa'
   'scrollbarSlider.background': '{faint}'
@@ -182,7 +191,7 @@ colors:
   'settings.checkboxBorder': '{border}'
   'settings.dropdownBorder': '{border}'
   'settings.headerForeground': '{fg}'
-  'settings.textInputBackground': '{white}'
+  'settings.textInputBackground': '{blank_bg}'
 
   'sideBar.background': '{ui_bg}'
   'sideBar.border': '{border}'
@@ -193,9 +202,9 @@ colors:
   'statusBar.background': '{ui_bg}'
   'statusBar.border': '{border}'
   'statusBar.debuggingBackground': '{yellow_1}'
-  'statusBar.debuggingForeground': '{white}'
+  'statusBar.debuggingForeground': '{blank_bg}'
   'statusBar.foreground': '{fg}'
-  'statusBar.noFolderBackground': '{white}'
+  'statusBar.noFolderBackground': '{blank_bg}'
   'statusBar.noFolderForeground': '{fg}'
 
   'statusBarItem.remoteBackground': '{button_bg}'
@@ -238,13 +247,13 @@ colors:
   'terminal.foreground': '{fg}'
   'terminal.selectionBackground': '{selection_bg}'
   'terminal.tab.activeBorder': '{fg}'
-  'terminalCommandDecoration.successBackground': '{purple_2}'
+  'terminalCommandDecoration.successBackground': '{blue_2}'
   'terminalStickyScrollHover.background': '{selection_bg}88'
 
   'textBlockQuote.background': '{bg_2}'
   'textLink.activeForeground': '{fg}'
   'textLink.foreground': '{blue_1}'
-  'textPreformat.foreground': '{gray_1}'
+  'textPreformat.foreground': '{string}'
 
   'titleBar.activeBackground': '{ui_bg}'
   'titleBar.activeForeground': '{fg}'
