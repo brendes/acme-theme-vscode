@@ -25,11 +25,6 @@
         "label": "Acme White",
         "uiTheme": "vs",
         "path": "./themes/acme-white-color-theme.json"
-      },
-      {
-        "label": "Acme Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/acme-dark-color-theme.json"
       }
     ]
   }
