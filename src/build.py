@@ -7,7 +7,7 @@ colors = {
     "paleyellow_1": "#ffffee",
     "paleyellow_2": "#f2f2e2",
     "paleyellow_3": "#eeeedd",
-    "paleyellow_4": "#dfdfcf",
+    "paleyellow_4": "#ddddcd",
     "black": "#000000",
     "gray_1": "#888888",
     "gray_2": "#e2e2e2",
@@ -46,8 +46,6 @@ base_theme = {
     "fg_dim": colors["black"] + "6d",
     "fg_faint": colors["black"] + "44",
     "blank_bg": colors["white"],
-    "button_bg": colors["purple_1"],
-    "button_fg": colors["white"],
     "neutral_hl": colors["black"] + "10"
 }
 
@@ -63,7 +61,10 @@ themes = {
         "ui_bg": colors["cyan_4"],
         "ui_hl": colors["cyan_3"],
         "hover_bg": colors["white"],
-        "hover_hl": colors["gray_2"],
+        "badge_bg": colors["purple_1"],
+        "badge_fg": colors["white"],
+        "button_bg": colors["purple_1"],
+        "button_fg": colors["white"]
     },
     "acme_plain": {
         **base_theme,
@@ -74,11 +75,12 @@ themes = {
         "selection_bg": colors["yellow_2"],
         "match_bg": colors["purple_2"] + "ee",
         "ui_bg": colors["paleyellow_1"],
-        "ui_hl": colors["yellow_2"],
+        "ui_hl": colors["paleyellow_3"],
         "hover_bg": colors["white"],
-        "hover_hl": colors["gray_2"],
-        "button_bg": "#ccccee",
-        "button_fg": colors["black"],
+        "badge_bg": colors["paleyellow_4"],
+        "badge_fg": colors["black"],
+        "button_bg": colors["purple_1"],
+        "button_fg": colors["white"],
         "border": "#00000066"
     },
     "acme_white":{
@@ -92,7 +94,10 @@ themes = {
         "ui_bg": colors["blue_4"],
         "ui_hl": colors["blue_3"],
         "hover_bg": colors["gray_4"],
-        "hover_hl": colors["gray_2"],
+        "badge_bg": colors["purple_1"],
+        "badge_fg": colors["white"],
+        "button_bg": colors["purple_1"],
+        "button_fg": colors["white"]
     }
 }
 
