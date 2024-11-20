@@ -22,6 +22,11 @@
         "path": "./themes/acme-color-theme.json"
       },
       {
+        "label": "Acme Plain",
+        "uiTheme": "vs",
+        "path": "./themes/acme-plain-color-theme.json"
+      },
+      {
         "label": "Acme White",
         "uiTheme": "vs",
         "path": "./themes/acme-white-color-theme.json"
