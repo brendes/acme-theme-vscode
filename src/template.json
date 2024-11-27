@@ -209,8 +209,9 @@
     "sideBar.background": "{bg_1}",
     "sideBar.border": "{border}",
     "sideBar.foreground": "{fg}",
-    "sideBarSectionHeader.background": "{bg_1}",
-    "sideBarSectionHeader.border": "{invisible}",
+    "sideBarSectionHeader.background": "{ui_bg}",
+    "sideBarSectionHeader.border": "{border}",
+    "sideBarTitle.background": "{ui_bg}",
 
     "statusBar.background": "{ui_bg}",
     "statusBar.border": "{border}",

@@ -4,10 +4,10 @@ import json
 import os
 
 colors = {
-    "paleyellow_1": "#ffffee",
-    "paleyellow_2": "#f2f2e2",
-    "paleyellow_3": "#eeeedd",
-    "paleyellow_4": "#ddddcd",
+    "paleyellow_1": "#ffffea",
+    "paleyellow_2": "#f2f2dd",
+    "paleyellow_3": "#eeeed9",
+    "paleyellow_4": "#ddddc8",
     "black": "#000000",
     "gray_1": "#888888",
     "gray_2": "#e2e2e2",
@@ -19,7 +19,7 @@ colors = {
     "orange_1": "#dd9870",
     "orange_2": "#f8c090",
     "yellow_1": "#99884c",
-    "yellow_2": "#eeeeaa",
+    "yellow_2": "#eeeea0",
     "green_1": "#558855",
     "green_2": "#a8cca8",
     "green_3": "#eeffee",
