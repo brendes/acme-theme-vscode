@@ -1,11 +1,6 @@
-PYTHON_CMD = python3
-BUILD_SCRIPT = src/build.py
-
-all: build
-
 build:
 	mkdir -p themes
-	$(PYTHON_CMD) $(BUILD_SCRIPT)
+	python3 src/build.py
 
 package: build
 	vsce package

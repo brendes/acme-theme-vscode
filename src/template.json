@@ -212,6 +212,7 @@
     "sideBarSectionHeader.background": "{ui_bg}",
     "sideBarSectionHeader.border": "{border}",
     "sideBarTitle.background": "{ui_bg}",
+    "sideBarTitle.border": "{invisible}",
 
     "statusBar.background": "{ui_bg}",
     "statusBar.border": "{border}",
@@ -274,11 +275,24 @@
     "titleBar.inactiveBackground": "{ui_bg}",
     "titleBar.inactiveForeground": "{fg_dim}",
 
-    "tree.indentGuidesStroke": "{invisible}",
-    "tree.inactiveIndentGuidesStroke": "{invisible}",
+    "toolbar.hoverBackground": "{neutral_hl}",
+
+    "tree.indentGuidesStroke": "{fg_ghost}",
+    "tree.inactiveIndentGuidesStroke": "{fg_ghost}",
 
     "window.activeBorder": "{ui_bg}",
     "window.inactiveBorder": "{bg_1}",
+
+    "scmGraph.foreground1": "{yellow_1}",
+    "scmGraph.foreground2": "{cyan_1}",
+    "scmGraph.foreground3": "{magenta_1}",
+    "scmGraph.foreground4": "{orange_1}",
+    "scmGraph.foreground5": "{purple_1}",
+    "scmGraph.historyItemRefColor": "{blue_1}",
+    "scmGraph.historyItemRemoteRefColor": "{red_1}",
+    "scmGraph.historyItemHoverDefaultLabelBackground": "{purple_1}",
+    "scmGraph.historyItemHoverDefaultLabelForeground": "{white}",
+    "scmGraph.historyItemHoverLabelForeground": "{white}",
 
     "symbolIcon.arrayForeground": "{fg}",
     "symbolIcon.booleanForeground": "{fg}",

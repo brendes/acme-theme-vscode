@@ -45,6 +45,7 @@ base_theme = {
     "fg": colors["black"],
     "fg_dim": colors["black"] + "6d",
     "fg_faint": colors["black"] + "44",
+    "fg_ghost": colors["black"] + "20",
     "blank_bg": colors["white"],
     "neutral_hl": colors["black"] + "10"
 }
@@ -59,6 +60,22 @@ themes = {
         "selection_bg": colors["yellow_2"],
         "match_bg": colors["purple_2"] + "ee",
         "ui_bg": colors["cyan_4"],
+        "ui_hl": colors["cyan_3"],
+        "hover_bg": colors["white"],
+        "badge_bg": colors["purple_1"],
+        "badge_fg": colors["white"],
+        "button_bg": colors["purple_1"],
+        "button_fg": colors["white"]
+    },
+    "acme_modern": {
+        **base_theme,
+        "theme_name": "Acme Modern",
+        "bg_1": "#ffffee",
+        "bg_2": "#f2f2e2",
+        "bg_3": "#eeeede",
+        "selection_bg": "#eeeeaa",
+        "match_bg": colors["purple_2"] + "ee",
+        "ui_bg": "#eeffff",
         "ui_hl": colors["cyan_3"],
         "hover_bg": colors["white"],
         "badge_bg": colors["purple_1"],
