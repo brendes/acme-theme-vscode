@@ -22,9 +22,9 @@
         "path": "./themes/acme-color-theme.json"
       },
       {
-        "label": "Acme Modern",
+        "label": "Acme Classic",
         "uiTheme": "vs",
-        "path": "./themes/acme-modern-color-theme.json"
+        "path": "./themes/acme-classic-color-theme.json"
       },
       {
         "label": "Acme Plain",

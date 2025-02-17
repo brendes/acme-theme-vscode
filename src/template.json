@@ -87,6 +87,9 @@
     "checkbox.border": "{border}",
     "dropdown.border": "{border}",
 
+    "commandCenter.border": "{ui_bg}",
+    "commandCenter.background": "{ui_bg}",
+
     "debugIcon.breakpointForeground": "{red_1}",
     "debugToolBar.background": "{hover_bg}",
 
@@ -212,7 +215,7 @@
     "sideBarSectionHeader.background": "{ui_bg}",
     "sideBarSectionHeader.border": "{border}",
     "sideBarTitle.background": "{ui_bg}",
-    "sideBarTitle.border": "{invisible}",
+    "sideBarTitle.border": "{border}",
 
     "statusBar.background": "{ui_bg}",
     "statusBar.border": "{border}",
@@ -227,7 +230,7 @@
 
     "tab.activeBackground": "{ui_bg}",
     "tab.activeBorder": "{ui_bg}",
-    "tab.activeBorderTop": "{ui_bg}",
+    "tab.activeBorderTop": "{border}",
     "tab.activeForeground": "{fg}",
     "tab.border": "{border}",
     "tab.hoverBackground": "{ui_bg}",
@@ -271,7 +274,7 @@
 
     "titleBar.activeBackground": "{ui_bg}",
     "titleBar.activeForeground": "{fg}",
-    "titleBar.border": "{border}",
+    "titleBar.border": "{ui_bg}",
     "titleBar.inactiveBackground": "{ui_bg}",
     "titleBar.inactiveForeground": "{fg_dim}",
 
