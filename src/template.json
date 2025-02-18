@@ -1,334 +1,341 @@
 {
-  "$schema": "vscode://schemas/color-theme",
-  "name": "{theme_name}",
-  "type": "{theme_type}",
-  "semanticHighlighting": true,
-  "tokenColors": [
-    {
-      "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
-      "settings": {
-        "foreground": "{fg_dim}"
-      }
-    },
-    {
-      "name": "No highlighting",
-      "scope": [
-        "constant",
-        "constant.character.escape",
-        "entity.other.attribute-name.id",
-        "support.constant",
-        "string"
-      ],
-      "settings": {
-        "foreground": "{fg}"
-      }
-    },
-    {
-      "name": "Errors",
-      "scope": [
-        "entity.name.exception",
-        "invalid.illegal"
-      ],
-      "settings": {
-        "foreground": "{red_1}"
-      }
-    },
-    {
-      "name": "Sections and headings",
-      "scope": [
-        "entity.name.section.markdown"
-      ],
-      "settings": {
+    "$schema": "vscode://schemas/color-theme",
+    "name": "{theme_name}",
+    "type": "{theme_type}",
+    "semanticHighlighting": true,
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "{fg_dim}"
+            }
+        },
+        {
+            "name": "No highlighting",
+            "scope": [
+                "constant",
+                "constant.character.escape",
+                "entity.other.attribute-name.id",
+                "support.constant",
+                "string"
+            ],
+            "settings": {
+                "foreground": "{fg}"
+            }
+        },
+        {
+            "name": "Errors",
+            "scope": [
+                "entity.name.exception",
+                "invalid.illegal"
+            ],
+            "settings": {
+                "foreground": "{red_1}"
+            }
+        },
+        {
+            "name": "Sections and headings",
+            "scope": [
+                "entity.name.section.markdown"
+            ],
+            "settings": {
+                "foreground": "{fg}",
+                "fontStyle": "bold"
+            }
+        }
+    ],
+    "colors": {
+        "descriptionForeground": "{fg}",
+        "disabledForeground": "{fg_dim}",
+        "errorForeground": "{red_1}",
+        "focusBorder": "{border}",
         "foreground": "{fg}",
-        "fontStyle": "bold"
-      }
+        "icon.foreground": "{fg}",
+        "selection.background": "{neutral_hl}",
+        "widget.border": "{border}",
+        "widget.shadow": "{invisible}",
+
+        "activityBar.activeBorder": "{ui_bg}",
+        "activityBar.activeFocusBorder": "{border}",
+        "activityBar.background": "{ui_bg}",
+        "activityBar.border": "{border}",
+        "activityBar.foreground": "{fg}",
+        "activityBar.inactiveForeground": "{fg_faint}",
+
+        "activityBarBadge.background": "{badge_bg}",
+        "activityBarBadge.foreground": "{badge_fg}",
+
+        "badge.background": "{badge_bg}",
+        "badge.foreground": "{badge_fg}",
+
+        "breadcrumb.background": "{ui_bg}",
+        "breadcrumb.foreground": "{fg}",
+        "breadcrumb.focusForeground": "{fg}",
+        "breadcrumbPicker.background": "{hover_bg}",
+
+        "button.background": "{button_bg}d8",
+        "button.foreground": "{button_fg}",
+        "button.border": "{black}",
+        "button.hoverBackground": "{button_bg}",
+        "button.secondaryBackground": "{invisible}",
+        "button.secondaryForeground": "{fg}",
+        "button.secondaryHoverBackground": "{fg}10",
+
+        "checkbox.border": "{border}",
+        "dropdown.border": "{border}",
+
+        "commandCenter.border": "{ui_bg}",
+        "commandCenter.background": "{ui_bg}",
+        "commandCenter.activeBackground": "{ui_hl}",
+        "commandCenter.activeBorder": "{border}",
+
+        "debugToolBar.background": "{hover_bg}",
+
+        "editor.background": "{bg_1}",
+        "editor.foreground": "{fg}",
+
+        "editor.findMatchBackground": "{match_bg}",
+        "editor.findMatchHighlightBackground": "{selection_bg}",
+
+        "editor.foldBackground": "{bg_1}",
+        "editor.lineHighlightBorder": "{bg_3}",
+        "editor.rangeHighlightBackground": "{bg_2}88",
+        "editor.selectionBackground": "{selection_bg}ee",
+        "editor.selectionHighlightBackground": "{bg_2}",
+        "editor.wordHighlightBackground": "{bg_2}",
+        "editor.wordHighlightStrongBackground": "{bg_3}",
+
+        "editorBracketMatch.background": "{bg_2}",
+        "editorCodeLens.foreground": "{fg_faint}",
+        "editorCursor.foreground": "{fg}",
+        "editorGroup.border": "{border}",
+        "editorGroupHeader.border": "{border}",
+        "editorGroupHeader.tabsBackground": "{ui_bg}",
+        "editorGroupHeader.tabsBorder": "{border}",
+
+        "editorGutter.modifiedBackground": "{blue_1}",
+        "editorGutter.addedBackground": "{green_1}",
+        "editorGutter.deletedBackground": "{red_1}",
+
+        "editorGhostText.foreground": "{fg_faint}",
+        "editorHoverWidget.border": "{border}",
+        "editorHoverWidget.background": "{hover_bg}",
+        "editorInfo.foreground": "{purple_1}",
+        "editorInlayHint.foreground": "{fg_faint}",
+        "editorInlayHint.background": "{bg_1}",
+        "editorIndentGuide.activeBackground1": "{fg_faint}",
+        "editorIndentGuide.background1": "{bg_3}",
+        "editorLightBulbAutoFix.foreground": "{purple_1}",
+        "editorLineNumber.foreground": "{fg_faint}",
+        "editorLineNumber.activeForeground": "{fg}",
+        "editorLink.activeForeground": "{blue_1}",
+        "editorStickyScrollHover.background": "{neutral_hl}",
+
+        "editorSuggestWidget.background": "{green_3}",
+        "editorSuggestWidget.border": "{green_1}",
+        "editorSuggestWidget.focusHighlightForeground": "{white}",
+        "editorSuggestWidget.foreground": "{fg}",
+        "editorSuggestWidget.highlightForeground": "{fg}",
+        "editorSuggestWidget.selectedBackground": "{green_1}",
+        "editorSuggestWidget.selectedForeground": "{white}",
+        "editorSuggestWidget.selectedIconForeground": "{white}",
+
+        "editorWidget.background": "{ui_bg}",
+        "editorWidget.foreground": "{fg}",
+        "editorWidget.border": "{border}",
+
+        "gitDecoration.addedResourceForeground": "{fg}",
+        "gitDecoration.renamedResourceForeground": "{fg}",
+        "gitDecoration.conflictingResourceForeground": "{red_1}",
+        "gitDecoration.deletedResourceForeground": "{fg}",
+        "gitDecoration.ignoredResourceForeground": "{fg_dim}",
+        "gitDecoration.modifiedResourceForeground": "{fg}",
+        "gitDecoration.stageDeletedResourceForeground": "{fg}",
+        "gitDecoration.stageModifiedResourceForeground": "{fg}",
+        "gitDecoration.submoduleResourceForeground": "{fg}",
+        "gitDecoration.untrackedResourceForeground": "{fg}",
+        "gitlens.trailingLineForegroundColor": "{fg_faint}",
+
+        "input.background": "{blank_bg}",
+        "input.border": "{border}",
+        "input.foreground": "{fg}",
+        "input.placeholderForeground": "{fg}88",
+
+        "keybindingLabel.background": "{blank_bg}",
+        "keybindingLabel.border": "{border}",
+        "keybindingLabel.bottomBorder": "{border}",
+        "keybindingLabel.foreground": "{fg}",
+
+        "list.activeSelectionBackground": "{neutral_hl}",
+        "list.activeSelectionForeground": "{fg}",
+        "list.activeSelectionIconForeground": "{fg}",
+        "list.errorForeground": "{red_1}",
+        "list.highlightForeground": "{fg}",
+        "list.hoverBackground": "{neutral_hl}",
+        "list.inactiveSelectionBackground": "{neutral_hl}",
+        "list.warningForeground": "{orange_1}",
+
+        "notificationCenter.border": "{border}",
+        "notificationCenterHeader.background": "{hover_bg}",
+        "notificationCenterHeader.foreground": "{fg}",
+        "notificationLink.foreground": "{blue_1}",
+        "notifications.background": "{hover_bg}",
+        "notifications.border": "{border}",
+        "notifications.foreground": "{fg}",
+        "notificationsInfoIcon.foreground": "{fg}",
+
+        "panel.background": "{ui_bg}",
+        "panel.border": "{border}",
+        "panelInput.border": "{border}",
+        "panelSection.border": "{border}",
+        "panelSectionHeader.background": "{ui_bg}",
+        "panelSectionHeader.border": "{border}",
+        "panelTitle.activeBorder": "{fg}",
+        "panelTitle.activeForeground": "{fg}",
+        "panelTitle.inactiveForeground": "{fg_dim}",
+
+        "peekView.border": "{border}",
+
+        "quickInputList.focusBackground": "{ui_hl}",
+        "quickInputList.focusForeground": "{fg}",
+
+        "peekViewTitle.background": "{bg_2}",
+
+        "progressBar.background": "{button_bg}",
+
+        "scrollbarSlider.activeBackground": "{fg_dim}",
+        "scrollbarSlider.background": "{fg_faint}",
+        "scrollbarSlider.hoverBackground": "{fg_dim}",
+
+        "settings.checkboxBorder": "{border}",
+        "settings.dropdownBorder": "{border}",
+        "settings.headerForeground": "{fg}",
+        "settings.textInputBackground": "{blank_bg}",
+
+        "sideBar.background": "{bg_1}",
+        "sideBar.border": "{border}",
+        "sideBar.foreground": "{fg}",
+        "sideBarSectionHeader.background": "{ui_bg}",
+        "sideBarSectionHeader.border": "{border}",
+        "sideBarTitle.background": "{ui_bg}",
+        "sideBarTitle.border": "{ui_bg}",
+
+        "statusBar.background": "{ui_bg}",
+        "statusBar.border": "{border}",
+        "statusBar.debuggingBackground": "{orange_1}",
+        "statusBar.debuggingForeground": "{blank_bg}",
+        "statusBar.foreground": "{fg}",
+        "statusBar.noFolderBackground": "{blank_bg}",
+        "statusBar.noFolderForeground": "{fg}",
+
+        "statusBarItem.remoteBackground": "{ui_bg}",
+        "statusBarItem.remoteForeground": "{fg}",
+
+        "tab.activeBackground": "{ui_bg}",
+        "tab.activeBorder": "{ui_bg}",
+        "tab.activeBorderTop": "{invisible}",
+        "tab.activeForeground": "{fg}",
+        "tab.border": "{border}",
+        "tab.hoverBackground": "{ui_bg}",
+        "tab.hoverForeground": "{fg}",
+        "tab.inactiveBackground": "{ui_bg}",
+        "tab.inactiveForeground": "{fg_dim}",
+        "tab.inactiveModifiedBorder": "{ui_bg}",
+        "tab.lastPinnedBorder": "{border}",
+        "tab.unfocusedActiveBackground": "{ui_bg}",
+        "tab.unfocusedActiveBorderTop": "{ui_bg}",
+        "tab.unfocusedActiveBorder": "{ui_bg}",
+        "tab.unfocusedInactiveBackground": "{ui_bg}",
+
+        "terminal.ansiBlack": "{black}",
+        "terminal.ansiBlue": "{blue_1}",
+        "terminal.ansiBrightBlack": "{fg_dim}",
+        "terminal.ansiBrightBlue": "{blue_2}",
+        "terminal.ansiBrightCyan": "{cyan_2}",
+        "terminal.ansiBrightGreen": "{green_2}",
+        "terminal.ansiBrightMagenta": "{magenta_2}",
+        "terminal.ansiBrightRed": "{red_2}",
+        "terminal.ansiBrightWhite": "{white}",
+        "terminal.ansiBrightYellow": "{yellow_2}",
+        "terminal.ansiCyan": "{cyan_1}",
+        "terminal.ansiGreen": "{green_1}",
+        "terminal.ansiMagenta": "{magenta_1}",
+        "terminal.ansiRed": "{red_1}",
+        "terminal.ansiWhite": "{bg_3}",
+        "terminal.ansiYellow": "{yellow_1}",
+        "terminal.background": "{bg_1}",
+        "terminal.foreground": "{fg}",
+        "terminal.selectionBackground": "{selection_bg}",
+        "terminal.tab.activeBorder": "{fg}",
+        "terminalCommandDecoration.successBackground": "{purple_1}",
+        "terminalStickyScrollHover.background": "{neutral_hl}",
+
+        "textBlockQuote.background": "{bg_2}",
+        "textLink.activeForeground": "{fg}",
+        "textLink.foreground": "{blue_1}",
+        "textPreformat.foreground": "{fg_dim}",
+
+        "titleBar.activeBackground": "{ui_bg}",
+        "titleBar.activeForeground": "{fg}",
+        "titleBar.border": "{border}",
+        "titleBar.inactiveBackground": "{ui_bg}",
+        "titleBar.inactiveForeground": "{fg_dim}",
+
+        "toolbar.hoverBackground": "{neutral_hl}",
+
+        "tree.indentGuidesStroke": "{fg_ghost}",
+        "tree.inactiveIndentGuidesStroke": "{fg_ghost}",
+
+        "window.activeBorder": "{ui_bg}",
+        "window.inactiveBorder": "{bg_1}",
+
+        "scmGraph.foreground1": "{yellow_1}",
+        "scmGraph.foreground2": "{cyan_1}",
+        "scmGraph.foreground3": "{magenta_1}",
+        "scmGraph.foreground4": "{orange_1}",
+        "scmGraph.foreground5": "{purple_1}",
+        "scmGraph.historyItemRefColor": "{blue_1}",
+        "scmGraph.historyItemRemoteRefColor": "{red_1}",
+        "scmGraph.historyItemHoverDefaultLabelBackground": "{purple_1}",
+        "scmGraph.historyItemHoverDefaultLabelForeground": "{white}",
+        "scmGraph.historyItemHoverLabelForeground": "{white}",
+
+        "symbolIcon.arrayForeground": "{fg}",
+        "symbolIcon.booleanForeground": "{fg}",
+        "symbolIcon.classForeground": "{fg}",
+        "symbolIcon.colorForeground": "{fg}",
+        "symbolIcon.constantForeground": "{fg}",
+        "symbolIcon.constructorForeground": "{fg}",
+        "symbolIcon.enumeratorForeground": "{fg}",
+        "symbolIcon.enumeratorMemberForeground": "{fg}",
+        "symbolIcon.eventForeground": "{fg}",
+        "symbolIcon.fieldForeground": "{fg}",
+        "symbolIcon.fileForeground": "{fg}",
+        "symbolIcon.folderForeground": "{fg}",
+        "symbolIcon.functionForeground": "{fg}",
+        "symbolIcon.interfaceForeground": "{fg}",
+        "symbolIcon.keyForeground": "{fg}",
+        "symbolIcon.keywordForeground": "{fg}",
+        "symbolIcon.methodForeground": "{fg}",
+        "symbolIcon.moduleForeground": "{fg}",
+        "symbolIcon.namespaceForeground": "{fg}",
+        "symbolIcon.nullForeground": "{fg}",
+        "symbolIcon.numberForeground": "{fg}",
+        "symbolIcon.objectForeground": "{fg}",
+        "symbolIcon.operatorForeground": "{fg}",
+        "symbolIcon.packageForeground": "{fg}",
+        "symbolIcon.propertyForeground": "{fg}",
+        "symbolIcon.referenceForeground": "{fg}",
+        "symbolIcon.snippetForeground": "{fg}",
+        "symbolIcon.stringForeground": "{fg}",
+        "symbolIcon.structForeground": "{fg}",
+        "symbolIcon.textForeground": "{fg}",
+        "symbolIcon.typeParameterForeground": "{fg}",
+        "symbolIcon.unitForeground": "{fg}",
+        "symbolIcon.variableForeground": "{fg}"
     }
-  ],
-  "colors": {
-    "descriptionForeground": "{fg}",
-    "disabledForeground": "{fg_dim}",
-    "errorForeground": "{red_1}",
-    "focusBorder": "{border}",
-    "foreground": "{fg}",
-    "icon.foreground": "{fg}",
-    "selection.background": "{selection_bg}",
-    "widget.border": "{border}",
-
-    "activityBar.activeBorder": "{ui_bg}",
-    "activityBar.activeFocusBorder": "{border}",
-    "activityBar.background": "{ui_bg}",
-    "activityBar.border": "{border}",
-    "activityBar.foreground": "{fg}",
-    "activityBar.inactiveForeground": "{fg_faint}",
-
-    "activityBarBadge.background": "{badge_bg}",
-    "activityBarBadge.foreground": "{badge_fg}",
-
-    "badge.background": "{badge_bg}",
-    "badge.foreground": "{badge_fg}",
-
-    "breadcrumb.background": "{ui_bg}",
-    "breadcrumb.foreground": "{fg}",
-    "breadcrumb.focusForeground": "{fg}",
-    "breadcrumbPicker.background": "{hover_bg}",
-
-    "button.background": "{button_bg}d8",
-    "button.foreground": "{button_fg}",
-    "button.border": "{black}",
-    "button.hoverBackground": "{button_bg}",
-    "button.secondaryBackground": "{invisible}",
-    "button.secondaryForeground": "{fg}",
-    "button.secondaryHoverBackground": "{fg}10",
-
-    "checkbox.border": "{border}",
-    "dropdown.border": "{border}",
-
-    "commandCenter.border": "{ui_bg}",
-    "commandCenter.background": "{ui_bg}",
-
-    "debugIcon.breakpointForeground": "{red_1}",
-    "debugToolBar.background": "{hover_bg}",
-
-    "editor.background": "{bg_1}",
-    "editor.foreground": "{fg}",
-
-    "editor.findMatchBackground": "{match_bg}",
-    "editor.findMatchHighlightBackground": "{selection_bg}",
-
-    "editor.foldBackground": "{bg_1}",
-    "editor.lineHighlightBorder": "{bg_3}",
-    "editor.rangeHighlightBackground": "{bg_2}88",
-    "editor.selectionBackground": "{selection_bg}ee",
-    "editor.selectionHighlightBackground": "{bg_2}",
-    "editor.wordHighlightBackground": "{bg_2}",
-    "editor.wordHighlightStrongBackground": "{bg_3}",
-
-    "editorBracketMatch.background": "{bg_2}",
-    "editorCodeLens.foreground": "{fg_faint}",
-    "editorCursor.foreground": "{fg}",
-    "editorGroup.border": "{border}",
-    "editorGroupHeader.border": "{border}",
-    "editorGroupHeader.tabsBackground": "{ui_bg}",
-    "editorGroupHeader.tabsBorder": "{border}",
-
-    "editorGutter.modifiedBackground": "{blue_1}",
-    "editorGutter.addedBackground": "{green_1}",
-    "editorGutter.deletedBackground": "{red_1}",
-
-    "editorGhostText.foreground": "{fg_faint}",
-    "editorHoverWidget.border": "{border}",
-    "editorHoverWidget.background": "{hover_bg}",
-    "editorInlayHint.foreground": "{fg_faint}",
-    "editorInlayHint.background": "{bg_1}",
-    "editorIndentGuide.activeBackground1": "{fg_faint}",
-    "editorIndentGuide.background1": "{bg_3}",
-    "editorLineNumber.foreground": "{fg_faint}",
-    "editorLineNumber.activeForeground": "{fg}",
-    "editorLink.activeForeground": "{blue_1}",
-    "editorStickyScrollHover.background": "{neutral_hl}",
-
-    "editorSuggestWidget.background": "{green_3}",
-    "editorSuggestWidget.border": "{green_1}",
-    "editorSuggestWidget.focusHighlightForeground": "{white}",
-    "editorSuggestWidget.foreground": "{fg}",
-    "editorSuggestWidget.highlightForeground": "{fg}",
-    "editorSuggestWidget.selectedBackground": "{green_1}",
-    "editorSuggestWidget.selectedForeground": "{white}",
-    "editorSuggestWidget.selectedIconForeground": "{white}",
-
-    "editorWidget.background": "{ui_bg}",
-    "editorWidget.foreground": "{fg}",
-    "editorWidget.border": "{border}",
-
-    "gitDecoration.addedResourceForeground": "{fg}",
-    "gitDecoration.renamedResourceForeground": "{fg}",
-    "gitDecoration.conflictingResourceForeground": "{red_1}",
-    "gitDecoration.deletedResourceForeground": "{fg}",
-    "gitDecoration.ignoredResourceForeground": "{fg_dim}",
-    "gitDecoration.modifiedResourceForeground": "{fg}",
-    "gitDecoration.stageDeletedResourceForeground": "{fg}",
-    "gitDecoration.stageModifiedResourceForeground": "{fg}",
-    "gitDecoration.submoduleResourceForeground": "{fg}",
-    "gitDecoration.untrackedResourceForeground": "{fg}",
-
-    "input.background": "{blank_bg}",
-    "input.border": "{border}",
-    "input.foreground": "{fg}",
-    "input.placeholderForeground": "{fg}88",
-
-    "keybindingLabel.background": "{blank_bg}",
-    "keybindingLabel.border": "{border}",
-    "keybindingLabel.bottomBorder": "{border}",
-    "keybindingLabel.foreground": "{fg}",
-
-    "list.activeSelectionBackground": "{neutral_hl}",
-    "list.activeSelectionForeground": "{fg}",
-    "list.activeSelectionIconForeground": "{fg}",
-    "list.errorForeground": "{red_1}",
-    "list.highlightForeground": "{fg}",
-    "list.hoverBackground": "{neutral_hl}",
-    "list.inactiveSelectionBackground": "{neutral_hl}",
-    "list.warningForeground": "{orange_1}",
-
-    "notificationCenter.border": "{border}",
-    "notificationCenterHeader.background": "{hover_bg}",
-    "notificationCenterHeader.foreground": "{fg}",
-    "notificationLink.foreground": "{blue_1}",
-    "notifications.background": "{hover_bg}",
-    "notifications.border": "{border}",
-    "notifications.foreground": "{fg}",
-    "notificationsInfoIcon.foreground": "{fg}",
-
-    "panel.background": "{ui_bg}",
-    "panel.border": "{border}",
-    "panelInput.border": "{border}",
-    "panelSection.border": "{border}",
-    "panelSectionHeader.background": "{ui_bg}",
-    "panelSectionHeader.border": "{border}",
-    "panelTitle.activeBorder": "{fg}",
-    "panelTitle.activeForeground": "{fg}",
-    "panelTitle.inactiveForeground": "{fg_dim}",
-
-    "peekView.border": "{border}",
-
-    "quickInputList.focusBackground": "{ui_hl}",
-    "quickInputList.focusForeground": "{fg}",
-
-    "progressBar.background": "{button_bg}",
-
-    "scrollbarSlider.activeBackground": "{fg_dim}",
-    "scrollbarSlider.background": "{fg_faint}",
-    "scrollbarSlider.hoverBackground": "{fg_dim}",
-
-    "settings.checkboxBorder": "{border}",
-    "settings.dropdownBorder": "{border}",
-    "settings.headerForeground": "{fg}",
-    "settings.textInputBackground": "{blank_bg}",
-
-    "sideBar.background": "{bg_1}",
-    "sideBar.border": "{border}",
-    "sideBar.foreground": "{fg}",
-    "sideBarSectionHeader.background": "{ui_bg}",
-    "sideBarSectionHeader.border": "{border}",
-    "sideBarTitle.background": "{ui_bg}",
-    "sideBarTitle.border": "{border}",
-
-    "statusBar.background": "{ui_bg}",
-    "statusBar.border": "{border}",
-    "statusBar.debuggingBackground": "{orange_1}",
-    "statusBar.debuggingForeground": "{blank_bg}",
-    "statusBar.foreground": "{fg}",
-    "statusBar.noFolderBackground": "{blank_bg}",
-    "statusBar.noFolderForeground": "{fg}",
-
-    "statusBarItem.remoteBackground": "{ui_bg}",
-    "statusBarItem.remoteForeground": "{fg}",
-
-    "tab.activeBackground": "{ui_bg}",
-    "tab.activeBorder": "{ui_bg}",
-    "tab.activeBorderTop": "{border}",
-    "tab.activeForeground": "{fg}",
-    "tab.border": "{border}",
-    "tab.hoverBackground": "{ui_bg}",
-    "tab.hoverForeground": "{fg}",
-    "tab.inactiveBackground": "{ui_bg}",
-    "tab.inactiveForeground": "{fg_dim}",
-    "tab.inactiveModifiedBorder": "{ui_bg}",
-    "tab.lastPinnedBorder": "{border}",
-    "tab.unfocusedActiveBackground": "{ui_bg}",
-    "tab.unfocusedActiveBorderTop": "{ui_bg}",
-    "tab.unfocusedActiveBorder": "{ui_bg}",
-    "tab.unfocusedInactiveBackground": "{ui_bg}",
-
-    "terminal.ansiBlack": "{black}",
-    "terminal.ansiBlue": "{blue_1}",
-    "terminal.ansiBrightBlack": "{fg_dim}",
-    "terminal.ansiBrightBlue": "{blue_2}",
-    "terminal.ansiBrightCyan": "{cyan_2}",
-    "terminal.ansiBrightGreen": "{green_2}",
-    "terminal.ansiBrightMagenta": "{magenta_2}",
-    "terminal.ansiBrightRed": "{red_2}",
-    "terminal.ansiBrightWhite": "{white}",
-    "terminal.ansiBrightYellow": "{yellow_2}",
-    "terminal.ansiCyan": "{cyan_1}",
-    "terminal.ansiGreen": "{green_1}",
-    "terminal.ansiMagenta": "{magenta_1}",
-    "terminal.ansiRed": "{red_1}",
-    "terminal.ansiWhite": "{bg_3}",
-    "terminal.ansiYellow": "{yellow_1}",
-    "terminal.background": "{bg_1}",
-    "terminal.foreground": "{fg}",
-    "terminal.selectionBackground": "{selection_bg}",
-    "terminal.tab.activeBorder": "{fg}",
-    "terminalCommandDecoration.successBackground": "{purple_1}",
-    "terminalStickyScrollHover.background": "{neutral_hl}",
-
-    "textBlockQuote.background": "{bg_2}",
-    "textLink.activeForeground": "{fg}",
-    "textLink.foreground": "{blue_1}",
-    "textPreformat.foreground": "{fg_dim}",
-
-    "titleBar.activeBackground": "{ui_bg}",
-    "titleBar.activeForeground": "{fg}",
-    "titleBar.border": "{ui_bg}",
-    "titleBar.inactiveBackground": "{ui_bg}",
-    "titleBar.inactiveForeground": "{fg_dim}",
-
-    "toolbar.hoverBackground": "{neutral_hl}",
-
-    "tree.indentGuidesStroke": "{fg_ghost}",
-    "tree.inactiveIndentGuidesStroke": "{fg_ghost}",
-
-    "window.activeBorder": "{ui_bg}",
-    "window.inactiveBorder": "{bg_1}",
-
-    "scmGraph.foreground1": "{yellow_1}",
-    "scmGraph.foreground2": "{cyan_1}",
-    "scmGraph.foreground3": "{magenta_1}",
-    "scmGraph.foreground4": "{orange_1}",
-    "scmGraph.foreground5": "{purple_1}",
-    "scmGraph.historyItemRefColor": "{blue_1}",
-    "scmGraph.historyItemRemoteRefColor": "{red_1}",
-    "scmGraph.historyItemHoverDefaultLabelBackground": "{purple_1}",
-    "scmGraph.historyItemHoverDefaultLabelForeground": "{white}",
-    "scmGraph.historyItemHoverLabelForeground": "{white}",
-
-    "symbolIcon.arrayForeground": "{fg}",
-    "symbolIcon.booleanForeground": "{fg}",
-    "symbolIcon.classForeground": "{fg}",
-    "symbolIcon.colorForeground": "{fg}",
-    "symbolIcon.constantForeground": "{fg}",
-    "symbolIcon.constructorForeground": "{fg}",
-    "symbolIcon.enumeratorForeground": "{fg}",
-    "symbolIcon.enumeratorMemberForeground": "{fg}",
-    "symbolIcon.eventForeground": "{fg}",
-    "symbolIcon.fieldForeground": "{fg}",
-    "symbolIcon.fileForeground": "{fg}",
-    "symbolIcon.folderForeground": "{fg}",
-    "symbolIcon.functionForeground": "{fg}",
-    "symbolIcon.interfaceForeground": "{fg}",
-    "symbolIcon.keyForeground": "{fg}",
-    "symbolIcon.keywordForeground": "{fg}",
-    "symbolIcon.methodForeground": "{fg}",
-    "symbolIcon.moduleForeground": "{fg}",
-    "symbolIcon.namespaceForeground": "{fg}",
-    "symbolIcon.nullForeground": "{fg}",
-    "symbolIcon.numberForeground": "{fg}",
-    "symbolIcon.objectForeground": "{fg}",
-    "symbolIcon.operatorForeground": "{fg}",
-    "symbolIcon.packageForeground": "{fg}",
-    "symbolIcon.propertyForeground": "{fg}",
-    "symbolIcon.referenceForeground": "{fg}",
-    "symbolIcon.snippetForeground": "{fg}",
-    "symbolIcon.stringForeground": "{fg}",
-    "symbolIcon.structForeground": "{fg}",
-    "symbolIcon.textForeground": "{fg}",
-    "symbolIcon.typeParameterForeground": "{fg}",
-    "symbolIcon.unitForeground": "{fg}",
-    "symbolIcon.variableForeground": "{fg}"
-  }
 }
