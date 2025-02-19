@@ -119,6 +119,7 @@
         "editorCursor.foreground": "{fg}",
         "editorGroup.border": "{border}",
         "editorGroupHeader.border": "{border}",
+        "editorGroupHeader.noTabsBackground": "{ui_bg}",
         "editorGroupHeader.tabsBackground": "{ui_bg}",
         "editorGroupHeader.tabsBorder": "{border}",
 
@@ -236,6 +237,9 @@
         "statusBar.foreground": "{fg}",
         "statusBar.noFolderBackground": "{blank_bg}",
         "statusBar.noFolderForeground": "{fg}",
+        "statusBarItem.hoverBackground": "{ui_hl}",
+        "statusBarItem.prominentHoverBackground": "{ui_hl}",
+        "statusBarItem.remoteHoverBackground": "{ui_hl}",
 
         "statusBarItem.remoteBackground": "{ui_bg}",
         "statusBarItem.remoteForeground": "{fg}",
