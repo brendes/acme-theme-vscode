@@ -102,14 +102,13 @@
 
         "editor.background": "{bg_1}",
         "editor.foreground": "{fg}",
-
         "editor.findMatchBackground": "{match_bg}",
         "editor.findMatchHighlightBackground": "{selection_bg}",
-
         "editor.foldBackground": "{bg_1}",
         "editor.lineHighlightBorder": "{bg_3}",
+        "editor.placeholder.foreground": "{fg_dim}",
         "editor.rangeHighlightBackground": "{bg_2}88",
-        "editor.selectionBackground": "{selection_bg}ee",
+        "editor.selectionBackground": "{selection_bg}",
         "editor.selectionHighlightBackground": "{bg_2}",
         "editor.wordHighlightBackground": "{bg_2}",
         "editor.wordHighlightStrongBackground": "{bg_3}",
@@ -118,15 +117,14 @@
         "editorCodeLens.foreground": "{fg_faint}",
         "editorCursor.foreground": "{fg}",
         "editorGroup.border": "{border}",
+        "editorGroup.emptyBackground": "{blank_bg}",
         "editorGroupHeader.border": "{border}",
         "editorGroupHeader.noTabsBackground": "{ui_bg}",
         "editorGroupHeader.tabsBackground": "{ui_bg}",
         "editorGroupHeader.tabsBorder": "{border}",
-
         "editorGutter.modifiedBackground": "{blue_1}",
         "editorGutter.addedBackground": "{green_1}",
         "editorGutter.deletedBackground": "{red_1}",
-
         "editorGhostText.foreground": "{fg_faint}",
         "editorHoverWidget.border": "{border}",
         "editorHoverWidget.background": "{hover_bg}",
@@ -140,7 +138,6 @@
         "editorLineNumber.activeForeground": "{fg}",
         "editorLink.activeForeground": "{blue_1}",
         "editorStickyScrollHover.background": "{neutral_hl}",
-
         "editorSuggestWidget.background": "{green_3}",
         "editorSuggestWidget.border": "{green_1}",
         "editorSuggestWidget.focusHighlightForeground": "{white}",
@@ -149,7 +146,6 @@
         "editorSuggestWidget.selectedBackground": "{green_1}",
         "editorSuggestWidget.selectedForeground": "{white}",
         "editorSuggestWidget.selectedIconForeground": "{white}",
-
         "editorWidget.background": "{ui_bg}",
         "editorWidget.foreground": "{fg}",
         "editorWidget.border": "{border}",
@@ -169,7 +165,7 @@
         "input.background": "{blank_bg}",
         "input.border": "{border}",
         "input.foreground": "{fg}",
-        "input.placeholderForeground": "{fg}88",
+        "input.placeholderForeground": "{fg_dim}",
 
         "keybindingLabel.background": "{blank_bg}",
         "keybindingLabel.border": "{border}",
@@ -182,7 +178,8 @@
         "list.errorForeground": "{red_1}",
         "list.highlightForeground": "{fg}",
         "list.hoverBackground": "{neutral_hl}",
-        "list.inactiveSelectionBackground": "{neutral_hl}",
+        "list.inactiveSelectionBackground": "{invisible}",
+        "list.inactiveFocusOutline": "{border}",
         "list.warningForeground": "{orange_1}",
 
         "notificationCenter.border": "{border}",
@@ -221,6 +218,7 @@
         "settings.dropdownBorder": "{border}",
         "settings.headerForeground": "{fg}",
         "settings.textInputBackground": "{blank_bg}",
+        "settings.modifiedItemIndicator": "{purple_1}",
 
         "sideBar.background": "{bg_1}",
         "sideBar.border": "{border}",
