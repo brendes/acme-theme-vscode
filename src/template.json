@@ -59,8 +59,7 @@
         "widget.border": "{border}",
         "widget.shadow": "{invisible}",
 
-        "activityBar.activeBorder": "{ui_bg}",
-        "activityBar.activeFocusBorder": "{border}",
+        "activityBar.activeBorder": "{fg}",
         "activityBar.background": "{ui_bg}",
         "activityBar.border": "{border}",
         "activityBar.foreground": "{fg}",
@@ -138,6 +137,7 @@
         "editorLineNumber.activeForeground": "{fg}",
         "editorLink.activeForeground": "{blue_1}",
         "editorStickyScrollHover.background": "{neutral_hl}",
+
         "editorSuggestWidget.background": "{green_3}",
         "editorSuggestWidget.border": "{green_1}",
         "editorSuggestWidget.focusHighlightForeground": "{white}",
@@ -146,6 +146,7 @@
         "editorSuggestWidget.selectedBackground": "{green_1}",
         "editorSuggestWidget.selectedForeground": "{white}",
         "editorSuggestWidget.selectedIconForeground": "{white}",
+
         "editorWidget.background": "{ui_bg}",
         "editorWidget.foreground": "{fg}",
         "editorWidget.border": "{border}",
@@ -226,7 +227,7 @@
         "sideBarSectionHeader.background": "{ui_bg}",
         "sideBarSectionHeader.border": "{border}",
         "sideBarTitle.background": "{ui_bg}",
-        "sideBarTitle.border": "{ui_bg}",
+        "sideBarTitle.border": "{border}",
 
         "statusBar.background": "{ui_bg}",
         "statusBar.border": "{border}",
