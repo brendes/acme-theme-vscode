@@ -3,6 +3,7 @@
   "displayName": "Acme Theme",
   "description": "",
   "version": "0.0.1",
+  "icon": "assets/glenda.jpg",
   "publisher": "brendes",
   "type": "module",
   "repository": {
