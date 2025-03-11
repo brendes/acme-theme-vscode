@@ -52,7 +52,7 @@
         "descriptionForeground": "{fg}",
         "disabledForeground": "{fg_dim}",
         "errorForeground": "{red_1}",
-        "focusBorder": "{border}",
+        "focusBorder": "{fg_faint}",
         "foreground": "{fg}",
         "icon.foreground": "{fg}",
         "selection.background": "{neutral_hl}",
@@ -104,12 +104,13 @@
         "editor.findMatchBackground": "{match_bg}",
         "editor.findMatchHighlightBackground": "{selection_bg}",
         "editor.foldBackground": "{bg_1}",
+        "editor.hoverHighlightBackground": "{match_bg}",
         "editor.lineHighlightBorder": "{bg_3}",
         "editor.placeholder.foreground": "{fg_dim}",
         "editor.rangeHighlightBackground": "{bg_2}88",
         "editor.selectionBackground": "{selection_bg}",
-        "editor.selectionHighlightBackground": "{bg_2}",
-        "editor.wordHighlightBackground": "{bg_2}",
+        "editor.selectionHighlightBackground": "{bg_3}",
+        "editor.wordHighlightBackground": "{bg_3}",
         "editor.wordHighlightStrongBackground": "{bg_3}",
 
         "editorBracketMatch.background": "{bg_2}",
@@ -127,7 +128,8 @@
         "editorGhostText.foreground": "{fg_faint}",
         "editorHoverWidget.border": "{border}",
         "editorHoverWidget.background": "{hover_bg}",
-        "editorInfo.foreground": "{purple_1}",
+        "editorHoverWidget.statusBarBackground": "{hover_bg}",
+        "editorInfo.foreground": "{fg_faint}",
         "editorInlayHint.foreground": "{fg_faint}",
         "editorInlayHint.background": "{bg_1}",
         "editorIndentGuide.activeBackground1": "{fg_faint}",
@@ -181,7 +183,7 @@
         "list.hoverBackground": "{neutral_hl}",
         "list.inactiveSelectionBackground": "{invisible}",
         "list.inactiveFocusOutline": "{border}",
-        "list.warningForeground": "{orange_1}",
+        "list.warningForeground": "{yellow_1}",
 
         "notificationCenter.border": "{border}",
         "notificationCenterHeader.background": "{hover_bg}",
@@ -210,6 +212,8 @@
         "peekViewTitle.background": "{bg_2}",
 
         "progressBar.background": "{button_bg}",
+
+        "sash.hoverBorder": "{purple_1}",
 
         "scrollbarSlider.activeBackground": "{fg_dim}",
         "scrollbarSlider.background": "{fg_faint}",
