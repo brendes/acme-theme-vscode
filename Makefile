@@ -11,4 +11,7 @@ publish: package
 clean:
 	rm -f *.vsix themes/*.json
 
-.PHONY: build package publish clean
+watch:
+	find src/* | entr -c make build
+
+.PHONY: build package publish clean watch
