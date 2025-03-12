@@ -13,6 +13,16 @@ A blue and white variant of the theme is also included (experimental).
 
 ![screenshot](assets/screenshot.png)
 
+## Recommended Settings
+
+```
+{
+    "explorer.decorations.colors": false,
+    "workbench.editor.decorations.colors": false,
+    "search.decorations.colors": false,
+}
+```
+
 ## Build
 
 Requires vsce and Python ≥ 3.11.
