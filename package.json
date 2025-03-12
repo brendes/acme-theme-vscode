@@ -1,6 +1,6 @@
 {
-    "name": "acme-theme-vscode-brendes-test",
-    "displayName": "Acme Theme",
+    "name": "acme-theme-vscode",
+    "displayName": "Acme Theme for VS Code",
     "description": "Theme inspired by the Acme editor from Plan 9",
     "version": "0.0.1",
     "icon": "assets/glenda.jpg",
