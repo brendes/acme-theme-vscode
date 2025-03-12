@@ -8,18 +8,18 @@
     "type": "module",
     "repository": {
 	    "type": "git",
-    "url": "https://github.com/brendes/acme-theme-vscode.git"
+        "url": "https://github.com/brendes/acme-theme-vscode.git"
     },
     "engines": {
-          "vscode": "^1.59.0"
+        "vscode": "^1.59.0"
     },
     "categories": [
-          "Themes"
+        "Themes"
     ],
     "keywords": [
-          "acme",
-          "plan9",
-          "minimal"
+        "acme",
+        "plan9",
+        "minimal"
     ],
     "contributes": {
         "themes": [
