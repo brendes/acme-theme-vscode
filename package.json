@@ -1,5 +1,5 @@
 {
-    "name": "acme-theme-brendes",
+    "name": "acme-theme-vscode",
     "displayName": "Acme Theme",
     "description": "Theme inspired by the Acme editor from Plan 9",
     "version": "0.0.1",
@@ -9,33 +9,35 @@
     "repository": {
 	    "type": "git",
     "url": "https://github.com/brendes/acme-theme-vscode.git"
-  },
-  "engines": {
-        "vscode": "^1.59.0"
-  },
-  "categories": [
-        "Themes"
-  ],
-  "keywords": [
-        "acme",
-        "plan9",
-        "minimal"
-  ],
-    "themes": [
-        {
-            "label": "Acme",
-            "uiTheme": "vs",
-            "path": "./themes/acme-color-theme.json"
-        },
-        {
-            "label": "Acme Plain",
-            "uiTheme": "vs",
-            "path": "./themes/acme-plain-color-theme.json"
-        },
-        {
-            "label": "Acme White",
-            "uiTheme": "vs",
-            "path": "./themes/acme-white-color-theme.json"
-        }
-    ]
+    },
+    "engines": {
+          "vscode": "^1.59.0"
+    },
+    "categories": [
+          "Themes"
+    ],
+    "keywords": [
+          "acme",
+          "plan9",
+          "minimal"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Acme",
+                "uiTheme": "vs",
+                "path": "./themes/acme-color-theme.json"
+            },
+            {
+                "label": "Acme Plain",
+                "uiTheme": "vs",
+                "path": "./themes/acme-plain-color-theme.json"
+            },
+            {
+                "label": "Acme White",
+                "uiTheme": "vs",
+                "path": "./themes/acme-white-color-theme.json"
+            }
+        ]
+    }
 }
