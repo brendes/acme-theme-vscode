@@ -214,9 +214,9 @@
 
         "sash.hoverBorder": "{purple_1}",
 
-        "scrollbarSlider.activeBackground": "{fg_dim}",
+        "scrollbarSlider.activeBackground": "{fg_faint}",
         "scrollbarSlider.background": "{fg_faint}",
-        "scrollbarSlider.hoverBackground": "{fg_dim}",
+        "scrollbarSlider.hoverBackground": "{fg_faint}",
 
         "settings.checkboxBorder": "{border}",
         "settings.dropdownBorder": "{border}",
