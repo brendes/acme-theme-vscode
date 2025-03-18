@@ -205,13 +205,12 @@
         "panelTitle.inactiveForeground": "{fg_dim}",
 
         "peekView.border": "{border}",
-
-        "quickInputList.focusBackground": "{ui_hl}",
-        "quickInputList.focusForeground": "{fg}",
-
         "peekViewTitle.background": "{bg_2}",
 
         "progressBar.background": "{button_bg}",
+        
+        "quickInputList.focusBackground": "{ui_hl}",
+        "quickInputList.focusForeground": "{fg}",
 
         "sash.hoverBorder": "{purple_1}",
 
@@ -242,10 +241,11 @@
         "statusBar.noFolderForeground": "{fg}",
         "statusBarItem.hoverBackground": "{ui_hl}",
         "statusBarItem.prominentHoverBackground": "{ui_hl}",
-        "statusBarItem.remoteHoverBackground": "{ui_hl}",
-
+        "statusBarItem.prominentHoverForeground": "{fg}",
+        "statusBarItem.compactHoverBackground": "{ui_hl}",
         "statusBarItem.remoteBackground": "{ui_bg}",
         "statusBarItem.remoteForeground": "{fg}",
+        "statusBarItem.remoteHoverBackground": "{ui_hl}",
 
         "tab.activeBackground": "{ui_bg}",
         "tab.activeBorder": "{ui_bg}",
