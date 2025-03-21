@@ -186,6 +186,9 @@
         "list.inactiveFocusOutline": "{border}",
         "list.warningForeground": "{yellow_1}",
 
+        "notebook.cellBorderColor": "{fg_ghost}",
+        "notebook.outputContainerBorderColor": "{fg_ghost}",
+
         "notificationCenter.border": "{border}",
         "notificationCenterHeader.background": "{hover_bg}",
         "notificationCenterHeader.foreground": "{fg}",
