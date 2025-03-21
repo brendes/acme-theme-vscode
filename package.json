@@ -2,7 +2,7 @@
     "name": "acme-theme-vscode",
     "displayName": "Acme Theme for VS Code",
     "description": "Theme inspired by the Acme editor from Plan 9",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "icon": "assets/glenda.jpg",
     "publisher": "brendes",
     "type": "module",
@@ -27,11 +27,6 @@
                 "label": "Acme",
                 "uiTheme": "vs",
                 "path": "./themes/acme-color-theme.json"
-            },
-            {
-                "label": "Acme Plain",
-                "uiTheme": "vs",
-                "path": "./themes/acme-plain-color-theme.json"
             },
             {
                 "label": "Acme White",
