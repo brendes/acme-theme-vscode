@@ -107,7 +107,7 @@
         "editor.hoverHighlightBackground": "{match_bg}",
         "editor.lineHighlightBorder": "{bg_3}",
         "editor.placeholder.foreground": "{fg_dim}",
-        "editor.rangeHighlightBackground": "{bg_2}88",
+        "editor.rangeHighlightBackground": "{bg_2}",
         "editor.selectionBackground": "{selection_bg}",
         "editor.selectionHighlightBackground": "{bg_3}",
         "editor.wordHighlightBackground": "{bg_3}",
