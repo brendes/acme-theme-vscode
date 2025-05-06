@@ -68,6 +68,7 @@ themes = {
         "theme_name": "Acme",
         "ui_bg": colors["cyan_4"],
         "ui_hl": colors["cyan_3"],
+        "gray": "#888880",
     },
     "acme_white":{
         **base_theme,
@@ -80,6 +81,7 @@ themes = {
         "match_bg": colors["blue_3"] + "ee",
         "ui_bg": colors["blue_4"],
         "ui_hl": colors["blue_2"],
+        "gray": colors["gray_1"],
         "border": "#00000058",
     }
 }

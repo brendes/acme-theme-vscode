@@ -8,7 +8,8 @@
             "name": "Comments",
             "scope": [
                 "comment",
-                "punctuation.definition.comment"
+                "punctuation.definition.comment",
+                "string.quoted.docstring"
             ],
             "settings": {
                 "foreground": "{fg_dim}"
@@ -188,6 +189,7 @@
 
         "notebook.cellBorderColor": "{fg_ghost}",
         "notebook.outputContainerBorderColor": "{fg_ghost}",
+        "notebook.focusedCellBorder": "{fg_ghost}",
 
         "notificationCenter.border": "{border}",
         "notificationCenterHeader.background": "{hover_bg}",
@@ -269,7 +271,7 @@
 
         "terminal.ansiBlack": "{black}",
         "terminal.ansiBlue": "{blue_1}",
-        "terminal.ansiBrightBlack": "{fg_dim}",
+        "terminal.ansiBrightBlack": "{gray}",
         "terminal.ansiBrightBlue": "{blue_2}",
         "terminal.ansiBrightCyan": "{cyan_2}",
         "terminal.ansiBrightGreen": "{green_2}",
