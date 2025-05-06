@@ -51,7 +51,7 @@ base_theme = {
     "hover_bg": colors["white"],
     "selection_bg": colors["brightyellow"],
     "fg": colors["black"],
-    "fg_dim": colors["black"] + "6d",
+    "fg_dim": colors["black"] + "78",
     "fg_faint": colors["black"] + "40",
     "fg_ghost": colors["black"] + "20",
     "neutral_hl": colors["black"] + "10",
