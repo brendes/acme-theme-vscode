@@ -1,7 +1,7 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "{theme_name}",
-    "type": "{theme_type}",
+    "name": "{name}",
+    "type": "{type}",
     "semanticHighlighting": true,
     "tokenColors": [
         {
@@ -244,8 +244,8 @@
 
         "statusBar.background": "{ui_bg}",
         "statusBar.border": "{border_1}",
-        "statusBar.debuggingBackground": "{orange_2}",
-        "statusBar.debuggingForeground": "{fg}",
+        "statusBar.debuggingBackground": "{red_1}",
+        "statusBar.debuggingForeground": "{white}",
         "statusBar.foreground": "{fg}",
         "statusBar.noFolderBackground": "{blank_bg}",
         "statusBar.noFolderForeground": "{fg}",
