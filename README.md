@@ -1,13 +1,12 @@
-# Acme
+# Acme theme
 
-VS Code theme inspired by the [Acme editor](https://en.wikipedia.org/wiki/Acme_%28text_editor%29). 
+A set of VS Code themes inspired by the [Acme editor](https://en.wikipedia.org/wiki/Acme_%28text_editor%29). 
 
-Two big differences between this theme and the original Acme editor's color scheme:
+Two big differences between the main theme and the original Acme editor's color scheme:
 
 1. Comments are a faded foreground color.
-2. Some other editor and/or UI colors are slightly muted, which looks better in VS Code on modern displays (IMHO).
-
-A blue and white variant of the theme is also included (experimental).
+2. Some other editor and UI colors are slightly muted compared to the originals, which looks better in VS Code on modern displays IMHO.
+3. A white-and-blue variant of the theme is included.
 
 ## Screenshot
 
