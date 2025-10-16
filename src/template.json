@@ -180,6 +180,10 @@
         "keybindingLabel.bottomBorder": "{border_1}",
         "keybindingLabel.foreground": "{fg}",
 
+        "inlineChat.background": "{white}",
+        "inlineChat.border": "{border_2}",
+        "inlineChatInput.focusBorder": "{border_2}",
+
         "list.activeSelectionBackground": "{neutral_hl}",
         "list.activeSelectionForeground": "{fg}",
         "list.activeSelectionIconForeground": "{fg}",
@@ -214,8 +218,12 @@
         "panelTitle.activeForeground": "{fg}",
         "panelTitle.inactiveForeground": "{fg_dim}",
 
-        "peekView.border": "{border_1}",
-        "peekViewTitle.background": "{bg_2}",
+        "peekView.border": "{border_2}",
+        "peekViewEditor.background": "{bg_1}",
+        "peekViewEditor.matchHighlightBackground": "{match_bg}",
+        "peekViewResult.background": "{bg_1}",
+        "peekViewResult.matchHighlightBackground": "{match_bg}",
+        "peekViewTitle.background": "{ui_bg}",
 
         "progressBar.background": "{button_bg}",
         
