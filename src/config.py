@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 colors = {
-    "paleyellow_1": "#ffffee",
-    "paleyellow_2": "#f2f2e2",
-    "paleyellow_3": "#eeeede",
+    "paleyellow_1": "#ffffea",
+    "paleyellow_2": "#f2f2dd",
+    "paleyellow_3": "#eeeed9",
     "paleyellow_4": "#777770",
     "gray_1": "#f6f6f6",
     "gray_2": "#eeeeee",
@@ -19,11 +19,11 @@ colors = {
     "yellow_2": "#eeee9e",
     "green_1": "#558855",
     "green_2": "#a8cca8",
-    "green_3": "#eeffee",
+    "green_3": "#eaffea",
     "cyan_1": "#5aaaaa",
     "cyan_2": "#8ccccc",
-    "cyan_3": "#aeeeee",
-    "cyan_4": "#eeffff",
+    "cyan_3": "#9eeeee",
+    "cyan_4": "#eaffff",
     "blue_1": "#4670bb",
     "blue_2": "#afdbff",
     "blue_3": "#cbe7ff",
