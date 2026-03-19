@@ -23,6 +23,6 @@ Two big differences between the main theme and the original Acme editor's color 
 
 ## Build
 
-Requires vsce and awk.
+Requires awk and vsce.
 - Build themes: `make build`
 - Build extension: `make package`
