@@ -284,6 +284,7 @@
         "tab.unfocusedActiveBorderTop": "{ui_bg}",
         "tab.unfocusedActiveBorder": "{ui_bg}",
         "tab.unfocusedInactiveBackground": "{ui_bg}",
+        "tab.unfocusedInactiveForeground": "{fg_dim}",
 
         "terminal.ansiBlack": "{black}",
         "terminal.ansiBlue": "{blue_1}",

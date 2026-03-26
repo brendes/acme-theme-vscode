@@ -37,6 +37,11 @@
                 "label": "Acme Mono",
                 "uiTheme": "vs",
                 "path": "./themes/acme-mono-color-theme.json"
+            },
+            {
+                "label": "Acme Plain",
+                "uiTheme": "vs",
+                "path": "./themes/acme-plain-color-theme.json"
             }
         ]
     }
