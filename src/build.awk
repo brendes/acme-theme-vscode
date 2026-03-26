@@ -1,7 +1,7 @@
 FILENAME != template {
-	if (/\t/ && !/^#/) {
-		val = $0; sub(/^[^\t]+\t+/, "", val)
-		k = $0; sub(/\t.*/, "", k)
+	if (NF >= 2 && !/^#/) {
+		k = $1
+		val = $0; sub(/^[^ \t]+[ \t]+/, "", val)
 		v[k] = val
 	}
 	next
