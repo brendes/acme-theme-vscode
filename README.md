@@ -16,9 +16,11 @@ Two big differences between the main theme and the original Acme editor's color 
 ```
 {
     "explorer.decorations.colors": false,
-    "workbench.editor.decorations.colors": false,
     "search.decorations.colors": false,
+    "workbench.editor.decorations.colors": false,
+    "workbench.shadows": false,
 }
+
 ```
 
 ## Build
