@@ -107,7 +107,7 @@
         "editor.findMatchBackground": "{match_focus_bg}",
         "editor.findMatchForeground": "{match_focus_fg}",
         "editor.findMatchHighlightBackground": "{match_bg}",
-        "editor.findMatchHighlightForeground": "{match_fg}ee",
+        "editor.findMatchHighlightForeground": "{match_fg}",
         "editor.foldBackground": "{bg_1}ee",
         "editor.hoverHighlightBackground": "{match_focus_bg}",
         "editor.lineHighlightBorder": "{bg_3}",
