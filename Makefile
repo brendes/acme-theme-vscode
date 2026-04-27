@@ -1,14 +1,9 @@
-CONFIGS = $(wildcard src/themes/*.conf)
-THEMES = $(patsubst src/themes/%.conf,themes/%-color-theme.json,$(CONFIGS))
-
-.PHONY: build
-
 build:
 	mkdir -p themes
 	for conf in src/themes/*.conf; do \
 		name=$$(basename $$conf .conf); \
-		awk -f src/build.awk -v template=src/template.json \
-			src/colors.conf src/base.conf $$conf src/template.json \
+		awk -f src/build.awk -v template=src/lib/template.json \
+			src/lib/colors.conf src/lib/base.conf $$conf src/lib/template.json \
 			> themes/$$name-color-theme.json; \
 	done
 
