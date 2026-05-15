@@ -34,9 +34,9 @@
                 "path": "./themes/acme-white-color-theme.json"
             },
             {
-                "label": "Acme Mono",
+                "label": "Acme Gray",
                 "uiTheme": "vs",
-                "path": "./themes/acme-mono-color-theme.json"
+                "path": "./themes/acme-gray-color-theme.json"
             },
             {
                 "label": "Acme Plain",
