@@ -1,6 +1,6 @@
 build:
 	mkdir -p themes
-	for conf in src/themes/*.conf; do \
+	for conf in src/colors/*.conf; do \
 		name=$$(basename $$conf .conf); \
 		awk -f src/build.awk -v template=src/lib/template.json \
 			src/lib/colors.conf src/lib/base.conf $$conf src/lib/template.json \
